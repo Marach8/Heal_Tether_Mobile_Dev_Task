@@ -121,7 +121,7 @@ class CacheException implements Exception {
 }
 
 // exceptions messages
-const kInternetConnectionError = 'No internet connection, try again.';
+const kInternetConnectionError = 'No internet connection...';
 const kTimeOutError = 'Connection timeout. Please check your internet connection.';
 const kServerError = 'Something went wrong, try again.';
 const kFormatError = 'Unable to process data at this time.';

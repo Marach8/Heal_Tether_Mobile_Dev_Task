@@ -39,6 +39,7 @@ class UsersListWidget extends ConsumerWidget {
                   HealTContainer(
                     height: 35, width: 35,
                     color: HealTColors.black,
+                    boxShape: BoxShape.circle,
                     alignment: Alignment.center,
                     child: HealTImgLoader(imagePath: HealTImgStrings.AVATAR)
                   ),
